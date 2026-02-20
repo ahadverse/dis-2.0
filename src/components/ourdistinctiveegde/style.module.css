@@ -1,0 +1,89 @@
+.container1 {
+  width: 100%;
+  background: var(
+    --Cards-BG-Dark-4,
+    linear-gradient(104deg, #e0f2fe 2.19%, #e0f2fe 32.57%)
+  );
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+}
+
+.container2 {
+  width: 100%;
+  background:
+    linear-gradient(91deg, #bc6cb9 -61.77%, #fff 87.06%),
+    linear-gradient(0deg, #fff 0, #fcfcfc 100%),
+    linear-gradient(92deg, #fff -59.96%, #fff 123.53%);
+  border-radius: 16px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 220px;
+}
+
+.imageContainer {
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  background-color: #208ccc;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.imageContainer2 {
+  padding: 0.5rem 0.75rem;
+  border-radius: 12px;
+  background-color: #a3052a;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .container1 {
+    padding: 2.5rem;
+    border-radius: 20px;
+    min-height: 300px;
+  }
+
+  .container2 {
+    padding: 2.5rem;
+    border-radius: 20px;
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container1 {
+    width: 70%;
+    height: 345px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+  }
+
+  .container2 {
+    width: 30%;
+    height: 345px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    padding: 15px 45px;
+    border-radius: 15px;
+  }
+
+  .imageContainer2 {
+    padding: 15px 25px;
+    border-radius: 15px;
+  }
+}

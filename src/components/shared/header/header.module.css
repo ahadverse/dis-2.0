@@ -1,0 +1,49 @@
+
+
+.login {
+  border: 2px solid #DB355B;
+  height: 40px !important;
+  padding: 0 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #DB355B;
+  cursor: pointer;
+}
+.login:hover {
+  border: 2px solid #208CCC;
+  color: #208CCC;
+}
+
+.hide {
+  display: none;
+  animation: fadeIn2 0.3s ease-out;
+}
+
+.show {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn2 {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+
+
