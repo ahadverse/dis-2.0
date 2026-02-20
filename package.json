@@ -2,6 +2,9 @@
   "name": "dis",
   "version": "0.1.0",
   "private": true,
+  "engine": {
+    "node": "24x"
+  },
   "scripts": {
     "dev": "next dev --turbopack -p 3000",
     "build": "next build",
