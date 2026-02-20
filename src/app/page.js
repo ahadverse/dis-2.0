@@ -1,6 +1,6 @@
 import About_section from "../components/about_section/about_section";
 import Banner1 from "../components/banner/banner1";
-import FAQ from "../components/faq/FAQ";
+import FAQ from "../components/faq/faq";
 import Hero from "../components/hero/hero";
 import Projects from "../components/projects/projects";
 import Subcribe from "../components/subscribe/subcribe";

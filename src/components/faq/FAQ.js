@@ -1,5 +1,5 @@
 import React from "react";
-import AccordianFa from "../Accordian/Accordian";
+import AccordianFa from "../accordian/accordian";
 
 const FAQs = () => {
   return (
